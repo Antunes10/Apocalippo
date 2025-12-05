@@ -1,21 +1,3 @@
-using System;
-
-namespace Unity.PerformanceTesting.Editor
-{
-    internal struct SamplePoint : IComparable<SamplePoint>
-    {
-        public double sample;
-        public int index;
-
-        public SamplePoint(double _sample, int _index)
-        {
-            sample = _sample;
-            index = _index;
-        }
-
-        public int CompareTo(SamplePoint other)
-        {
-            return sample.CompareTo(other.sample);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0221516324f3ca0d896af1721ba8ce8ca5e3da9c3631cc4667afdece533ddb16
+size 442

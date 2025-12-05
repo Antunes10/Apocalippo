@@ -1,35 +1,3 @@
-using NUnit.Framework;
-using UnityEngine.UI;
-using System.Reflection;
-
-internal class TestableImage : Image
-{
-    public bool isOnPopulateMeshCalled = false;
-    public bool isGeometryUpdated = false;
-    public bool isMaterialUpdated = false;
-
-    // Hook into the mesh generation so we can do our check.
-    protected override void OnPopulateMesh(VertexHelper toFill)
-    {
-        base.OnPopulateMesh(toFill);
-        Assert.That(toFill.currentVertCount, Is.GreaterThan(0), "Expected the mesh to be filled but it was not. Should not have a mesh with zero vertices.");
-        isOnPopulateMeshCalled = true;
-    }
-
-    protected override void UpdateGeometry()
-    {
-        base.UpdateGeometry();
-        isGeometryUpdated = true;
-    }
-
-    protected override void UpdateMaterial()
-    {
-        base.UpdateMaterial();
-        isMaterialUpdated = true;
-    }
-
-    public void GenerateImageData(VertexHelper vh)
-    {
-        OnPopulateMesh(vh);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0013ee22647f3c5ddb412070909ac3d80b5714e4556177451dfed95010b90f2e
+size 956

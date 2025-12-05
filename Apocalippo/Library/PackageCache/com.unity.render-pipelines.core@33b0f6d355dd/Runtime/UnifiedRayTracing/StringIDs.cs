@@ -1,10 +1,3 @@
-
-namespace UnityEngine.Rendering.UnifiedRayTracing
-{
-    internal static class SID
-    {
-        public static readonly int _UnifiedRT_Stack = Shader.PropertyToID("_UnifiedRT_Stack");
-        public static readonly int _UnifiedRT_DispatchDims = Shader.PropertyToID("_UnifiedRT_DispatchDims");
-        public static readonly int _UnifiedRT_DispatchDimsInWorkgroups = Shader.PropertyToID("_UnifiedRT_DispatchDimsInWorkgroups");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:071c44b8e395a0fbd0fdfcca1fd6fe1aec4d410c26fb8a1c3e7b913b4dc2b7de
+size 434

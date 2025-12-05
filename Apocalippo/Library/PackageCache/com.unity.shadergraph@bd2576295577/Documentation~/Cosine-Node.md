@@ -1,23 +1,3 @@
-# Cosine Node
-
-## Description
-
-Returns the cosine of the value of input **In**.
-
-## Ports
-
-| Name        | Direction           | Type  | Description |
-|:------------ |:-------------|:-----|:---|
-| In      | Input | Dynamic Vector | Input value in radians |
-| Out | Output      |    Dynamic Vector | Output value |
-
-## Generated Code Example
-
-The following example code represents one possible outcome of this node.
-
-```
-void Unity_Cosine_float4(float4 In, out float4 Out)
-{
-    Out = cos(In);
-}
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:2074101ae330c2e0ec0fbe4893ba00da4aee862bceaf7f55aca0c97c9b3ccd86
+size 499

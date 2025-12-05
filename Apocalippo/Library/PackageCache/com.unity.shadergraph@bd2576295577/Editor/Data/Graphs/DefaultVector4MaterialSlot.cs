@@ -1,36 +1,3 @@
-using System;
-using UnityEditor.ShaderGraph.Drawing.Slots;
-using UnityEngine.UIElements;
-using UnityEditor.Graphing;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Serializable]
-    class DefaultVector4MaterialSlot : Vector4MaterialSlot
-    {
-        public DefaultVector4MaterialSlot()
-        { }
-
-        public DefaultVector4MaterialSlot(int slotId, string displayName, string shaderOutputName, string defaultLabel = "Default",
-            ShaderStageCapability stageCapability = ShaderStageCapability.All, bool hidden = false)
-            : base(slotId, displayName, shaderOutputName, SlotType.Input, Vector4.zero, stageCapability, hidden: hidden)
-        {
-            m_DefaultLabel = defaultLabel;
-        }
-
-        [SerializeField]
-        string m_DefaultLabel = "Default";
-
-        public string defaultLabel
-        {
-            get => m_DefaultLabel;
-            set => m_DefaultLabel = value;
-        }
-
-        public override VisualElement InstantiateControl()
-        {
-            return new LabelSlotControlView(m_DefaultLabel);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c599e5d05301df2cfa88a04955e836291d1cd6108f5fb7ff3860b0859fa55392
+size 1082

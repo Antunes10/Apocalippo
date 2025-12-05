@@ -1,15 +1,3 @@
-# Shader Graph UI reference
-
-Explore the main user interface elements you need to know to create and configure your shader graphs.
-
-| Topic | Description |
-| :--- | :--- |
-| [Shader Graph template browser](template-browser.md) | Browse the list of available templates to create your shader graphs from. |
-| [Shader Graph Window](Shader-Graph-Window.md) | Display and edit your shader graph assets in Unity, including the [Master Stack](Master-Stack.md), the [Main Preview](Main-Preview.md), the [Blackboard](Blackboard.md), and the [Graph Inspector](Internal-Inspector.md). |
-| [Shader Graph Preferences](Shader-Graph-Preferences.md) | Define shader graph settings for your system. |
-| [Shader Graph Project Settings](Shader-Graph-Project-Settings.md) | Define shader graph settings for your entire project. |
-| [Shader Graph Keyboard Shortcuts](Keyboard-shortcuts.md) | Use keyboard shortcuts to work more efficiently when you're using Shader Graph. |
-
-## Additional resources
-
-* [Node Library](Node-Library.md)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b27d917981d4b1ea63beb9f929c8fcc059d1470a62063810cc3ad8f1ca479af
+size 1013

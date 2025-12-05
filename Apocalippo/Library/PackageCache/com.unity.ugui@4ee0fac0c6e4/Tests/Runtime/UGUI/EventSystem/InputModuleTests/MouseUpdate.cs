@@ -1,20 +1,3 @@
-using UnityEngine;
-
-internal class MouseUpdate : MonoBehaviour
-{
-    FakeBaseInput m_FakeBaseInput;
-
-    void Awake()
-    {
-        m_FakeBaseInput = GetComponent<FakeBaseInput>();
-    }
-
-    void Update()
-    {
-        Debug.Assert(m_FakeBaseInput, "FakeBaseInput component has not been added to the EventSystem");
-
-        // Update mouse position
-        m_FakeBaseInput.MousePosition.x += 10f;
-        m_FakeBaseInput.MousePosition.y += 10f;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdc9a2a51122ef6d35c7cb18989079441a90da27e0cc92e04a2851840268cd70
+size 454

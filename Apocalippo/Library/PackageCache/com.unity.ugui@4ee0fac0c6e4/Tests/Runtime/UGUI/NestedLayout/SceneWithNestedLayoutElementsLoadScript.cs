@@ -1,13 +1,3 @@
-using NUnit.Framework;
-using UnityEngine;
-using UnityEngine.TestTools.Utils;
-
-internal class SceneWithNestedLayoutElementsLoadScript : MonoBehaviour
-{
-    public bool isStartCalled { get; private set; }
-
-    protected void Start()
-    {
-        isStartCalled = true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:037839e4d3eecdb354eaa2a86d5b07b301519c2d01f7193406ca049d196ed8de
+size 275

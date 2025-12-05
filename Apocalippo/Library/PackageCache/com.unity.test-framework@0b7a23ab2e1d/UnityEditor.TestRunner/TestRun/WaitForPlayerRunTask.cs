@@ -1,22 +1,3 @@
-using System.Collections;
-using UnityEditor.TestRunner.TestLaunchers;
-using UnityEditor.TestTools.TestRunner.TestRun.Tasks;
-
-namespace UnityEditor.TestTools.TestRunner.TestRun
-{
-    internal class WaitForPlayerRunTask : TestTaskBase
-    {
-        public override IEnumerator Execute(TestJobData testJobData)
-        {
-            var playerBuildOptions = testJobData.GetCurrentBuildOptions();
-            if ((playerBuildOptions & BuildOptions.AutoRunPlayer) != BuildOptions.AutoRunPlayer)
-            {
-                yield break;
-            }
-            while (RemoteTestRunController.instance.isRunning)
-            {
-                yield return null;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:93ebce5e2130da131cadfabde0d3ffb183757225217a853770925651338228c5
+size 691

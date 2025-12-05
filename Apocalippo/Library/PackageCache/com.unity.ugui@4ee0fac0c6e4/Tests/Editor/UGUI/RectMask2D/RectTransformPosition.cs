@@ -1,18 +1,3 @@
-using UnityEngine;
-using NUnit.Framework;
-
-internal class RectTransformPosition
-{
-    [Test]
-    public void SettingPositionBeforeGameObjectIsActivatedWorks_953409()
-    {
-        var positionToSet = new Vector3(1, 2, 3);
-        var go = new GameObject("RectTransform", typeof(RectTransform));
-
-        go.SetActive(false);
-        go.transform.position = positionToSet;
-        go.SetActive(true);
-
-        Assert.AreEqual(positionToSet, go.transform.position, "Expected RectTransform position to be set but it was not.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:567411d3c9a8b88a091b4eefe741a0e753d3a65c60d4c50f00242d48844aaf5a
+size 533

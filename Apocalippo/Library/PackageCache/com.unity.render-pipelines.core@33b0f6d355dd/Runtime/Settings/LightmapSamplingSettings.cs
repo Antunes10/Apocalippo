@@ -1,32 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering
-{
-    /// <summary>
-    /// Lightmap Sampling global settings class.
-    /// </summary>
-    [Serializable]
-    [SupportedOnRenderPipeline()]
-    [Categorization.CategoryInfo(Name = "Lighting", Order = 20)]
-    public class LightmapSamplingSettings : IRenderPipelineGraphicsSettings
-    {
-        [SerializeField, HideInInspector]
-        int m_Version = 1;
-
-        int IRenderPipelineGraphicsSettings.version { get => m_Version; }
-
-        bool IRenderPipelineGraphicsSettings.isAvailableInPlayerBuild => true;
-
-        [SerializeField, Tooltip("Use Bicubic Lightmap Sampling. Enabling this will improve the appearance of lightmaps, but may worsen performance on lower end platforms.")]
-        bool m_UseBicubicLightmapSampling;
-
-        /// <summary>
-        /// Whether to use bicubic sampling for lightmaps.
-        /// </summary>
-        public bool useBicubicLightmapSampling
-        {
-            get => m_UseBicubicLightmapSampling;
-            set => this.SetValueAndNotify(ref m_UseBicubicLightmapSampling, value, nameof(m_UseBicubicLightmapSampling));
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:935f82323033f0c1790ddf7d7fea1271cb4bc2d2ee6d786be2b62b9be24aa336
+size 1129

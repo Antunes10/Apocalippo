@@ -1,25 +1,3 @@
-using Unity.VisualScripting;
-using UnityEngine;
-
-class VariableExamples
-{
-    #region PlayerController
-    public class PlayerController : MonoBehaviour
-    {
-        VariableDeclaration m_Velocity;
-        void Start()
-        {
-            var variables = GetComponent<Variables>();
-            m_Velocity = variables.declarations.GetDeclaration("velocity");
-        }
-        void Update()
-        {
-            if (Input.GetKeyDown("space"))
-            {
-                var currentVelocity = (float)m_Velocity.value;
-                m_Velocity.value = currentVelocity * 2f;
-            }
-        }
-    }
-    #endregion
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a41c38067e9ed7cb21c64600eb5ecb63f0f65dd52a4f694172736c5df4596989
+size 627

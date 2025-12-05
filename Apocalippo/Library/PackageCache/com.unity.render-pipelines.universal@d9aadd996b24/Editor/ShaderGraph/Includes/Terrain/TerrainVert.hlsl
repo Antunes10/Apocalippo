@@ -1,13 +1,3 @@
-#ifndef SG_TERRAIN_VERTEX_INC
-#define SG_TERRAIN_VERTEX_INC
-
-PackedVaryings vert(Attributes input)
-{
-    Varyings output = (Varyings)0;
-    output = BuildVaryings(input);
-    PackedVaryings packedOutput = (PackedVaryings)0;
-    packedOutput = PackVaryings(output);
-    return packedOutput;
-}
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:226a39edbeffc3be19a02b22d0fbae9126ab29161cef47bc0cbb356125006322
+size 299

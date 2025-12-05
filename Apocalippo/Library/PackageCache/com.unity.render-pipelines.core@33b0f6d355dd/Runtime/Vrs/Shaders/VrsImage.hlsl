@@ -1,21 +1,3 @@
-﻿#ifndef VRS_IMAGE_INCLUDED
-#define VRS_IMAGE_INCLUDED
-
-#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
-
-RW_TEXTURE2D(uint, _ShadingRateImage);
-
-uniform float4 _VrsScaleBias;
-
-void ImageStore(uint shadingRateNativeValue, uint2 gid)
-{
-#if !defined(APPLY_Y_FLIP)
-    // compute shader introduce a natural y-flip
-    // hence the reverse test
-    gid.y = _VrsScaleBias.w - 1 - gid.y;
-#endif
-
-    _ShadingRateImage[gid] = shadingRateNativeValue;
-}
-
-#endif // VRS_IMAGE_INCLUDED
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1a2a9010150ec6ed36b325571cec78d6d4c78aae17dc84d3a53b1b09d94daca
+size 506

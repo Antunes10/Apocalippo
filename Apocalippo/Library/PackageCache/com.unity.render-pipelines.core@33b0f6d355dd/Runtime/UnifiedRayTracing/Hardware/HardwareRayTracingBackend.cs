@@ -1,28 +1,3 @@
-namespace UnityEngine.Rendering.UnifiedRayTracing
-{
-    internal class HardwareRayTracingBackend : IRayTracingBackend
-    {
-        public HardwareRayTracingBackend(RayTracingResources resources)
-        {
-            m_Resources = resources;
-        }
-
-        public IRayTracingShader CreateRayTracingShader(Object shader, string kernelName, GraphicsBuffer dispatchBuffer)
-        {
-            Debug.Assert(shader is RayTracingShader);
-            return new HardwareRayTracingShader((RayTracingShader)shader, kernelName, dispatchBuffer);
-        }
-
-        public IRayTracingAccelStruct CreateAccelerationStructure(AccelerationStructureOptions options, ReferenceCounter counter)
-        {
-            return new HardwareRayTracingAccelStruct(options, counter);
-        }   
-
-        public ulong GetRequiredTraceScratchBufferSizeInBytes(uint width, uint height, uint depth)
-        {
-            return 0;
-        }
-
-        readonly RayTracingResources m_Resources;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f01df6d569326289bd2dddb7bf92d3119fbf9f3817463621f26f5dfa4505eb12
+size 979

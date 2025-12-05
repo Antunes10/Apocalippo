@@ -1,8 +1,3 @@
-# Using Custom Interpolators
-
-Use custom interpolators to pass custom data from the vertex shader to the fragment shader.
-
-| **Page**                                                           | **Description**                                                                 |
-|--------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [Custom Interpolators](Custom-Interpolators.md)                    | Learn how to use and manage custom interpolators according to your needs. |
-| [Custom Interpolator reference](Custom-Interpolators-reference.md) | Explore the Custom Interpolator properties.                                     |
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfc201067ff9ef15c3707a63e1d4723dc48633f5c6c01c69a5cefa094ef0f809
+size 729

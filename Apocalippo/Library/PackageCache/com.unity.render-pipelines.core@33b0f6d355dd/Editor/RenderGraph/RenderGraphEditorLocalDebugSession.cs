@@ -1,17 +1,3 @@
-﻿using UnityEditor.Rendering.Analytics;
-
-namespace UnityEngine.Rendering.RenderGraphModule
-{
-    internal sealed class RenderGraphEditorLocalDebugSession : RenderGraphDebugSession
-    {
-        public override bool isActive => true;
-
-        public RenderGraphEditorLocalDebugSession() : base()
-        {
-            RegisterAllLocallyKnownGraphsAndExecutions();
-
-            var analyticsPayload = new DebugMessageHandler.AnalyticsPayload();
-            RenderGraphViewerSessionCreatedAnalytic.Send(RenderGraphViewerSessionCreatedAnalytic.SessionType.Local, analyticsPayload);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:251f470bb97b52c2a00cddfa031cc7468a37aeb860f00021a3cdf39bfa0d45eb
+size 598

@@ -1,11 +1,3 @@
-namespace UnityEditor.ShaderGraph
-{
-    [GenerationAPI]
-    internal enum KeywordDefinition
-    {
-        ShaderFeature,      // adds #pragma shaderfeature for the keyword
-        MultiCompile,       // adds #pragma multicompile for the keyword        
-        Predefined,          // does not add ShaderFeature or MultiCompile pragmas, and is forced to be !exposed
-        DynamicBranch,      // adds #pragma dynamic_branch for the keyword
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84c44e3284a6268e97acfd61e62f9671db9779dc8e11754ad0d9ec498fd0551a
+size 449

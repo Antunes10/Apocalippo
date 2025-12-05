@@ -1,11 +1,3 @@
-{
-  "name": "com.unity.render-pipelines.universal-config",
-  "description": "Configuration files for the Universal Render Pipeline.",
-  "version": "17.0.3",
-  "unity": "6000.0",
-  "displayName": "Universal Render Pipeline Config",
-  "dependencies": {
-    "com.unity.render-pipelines.core": "17.0.3"
-  },
-  "_fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba5082b6c32161b374389816ab771ed1339b22b61f889e50f2a65937180f816b
+size 367

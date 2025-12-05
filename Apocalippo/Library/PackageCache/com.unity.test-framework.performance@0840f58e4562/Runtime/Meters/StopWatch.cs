@@ -1,22 +1,3 @@
-using System.Diagnostics;
-
-namespace Unity.PerformanceTesting.Meters
-{
-    /// <summary>
-    /// Takes use of System.Diagnostics.Stopwatch to provide stopwatch functionality implementing IStopWatch
-    /// </summary>
-    internal class StopWatch : IStopWatch
-    {
-        private readonly Stopwatch m_StopWatch = Stopwatch.StartNew();
-
-        public void Start()
-        {
-            m_StopWatch.Restart();
-        }
-
-        public double Split()
-        {
-            return m_StopWatch.Elapsed.TotalMilliseconds;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d55e531d2f3e6826c50a55006b559ccda29a3f3e0a5278563242917786412a1
+size 536

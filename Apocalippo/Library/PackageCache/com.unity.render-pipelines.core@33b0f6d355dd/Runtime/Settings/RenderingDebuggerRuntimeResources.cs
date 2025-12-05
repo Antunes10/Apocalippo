@@ -1,24 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering
-{
-    [Serializable, HideInInspector]
-    [SupportedOnRenderPipeline]
-    [Categorization.CategoryInfo(Name = "R : Rendering Debugger Resources", Order = 100)]
-    [Categorization.ElementInfo(Order = 0)]
-    class RenderingDebuggerRuntimeResources : IRenderPipelineResources
-    {
-        enum Version
-        {
-            Initial,
-
-            Count,
-            Last = Count - 1
-        }
-        [SerializeField, HideInInspector]
-        private Version m_version = Version.Last;
-        int IRenderPipelineGraphicsSettings.version => (int)m_version;
-
-        // TODO Add Rendering Debugger Resources here
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9d9131ece592230995aa20e06a1e2f7e1c90bee18b5ac8dd836f22e26084609
+size 665

@@ -1,8 +1,3 @@
-# Install and upgrade
-
-Install and upgrade Shader Graph.
-
-| Topic | Description |
-| :--- | :--- |
-| **[Install Shader Graph](install-shader-graph.md)** | Learn about the Shader Graph installation requirements and follow the installation instructions. |
-| **[Upgrade to version 10.0.x of Shader Graph](Upgrade-Guide-10-0-x.md)** | Upgrade your project to make it compatible with Shader Graph 10.0 or later. |
+version https://git-lfs.github.com/spec/v1
+oid sha256:d68a0ef4b5c6d7df8e1e60a583826de862e963091b46a60049bf898c2760d4eb
+size 408

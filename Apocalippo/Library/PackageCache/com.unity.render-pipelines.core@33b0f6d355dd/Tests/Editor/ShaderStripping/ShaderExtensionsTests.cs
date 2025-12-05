@@ -1,24 +1,3 @@
-using NUnit.Framework;
-using UnityEngine;
-
-namespace UnityEditor.Rendering.Tests.ShaderStripping
-{
-    class ShaderExtensionsTests
-    {
-        static TestCaseData[] s_TestCaseDatas =
-        {
-             new TestCaseData(Shader.Find("Hidden/Internal-Colored"))
-                .SetName("Given a shader from Built-in, the render pipeline tag is not found and is empty")
-                .Returns((false,string.Empty)),
-             new TestCaseData(Shader.Find("Hidden/DummyPipeline/VariantStrippingTestsShader"))
-                .SetName("Given a shader with a render pipeline tag, the pipeline is found")
-                .Returns((true, "DummyPipeline"))
-        };
-
-        [Test, TestCaseSource(nameof(s_TestCaseDatas))]
-        public (bool, string) TryGetRenderPipelineTag(Shader shader)
-        {
-            return (shader.TryGetRenderPipelineTag(default, out string renderPipeline), renderPipeline);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec7a9760201ceb215a8029bc053e099bcca60e595f42586d07b3563e0146384b
+size 929

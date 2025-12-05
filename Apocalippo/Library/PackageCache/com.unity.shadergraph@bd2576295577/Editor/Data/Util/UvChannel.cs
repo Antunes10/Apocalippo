@@ -1,16 +1,3 @@
-using System;
-
-namespace UnityEditor.ShaderGraph.Internal
-{
-    public enum UVChannel
-    {
-        UV0 = 0,
-        UV1 = 1,
-        UV2 = 2,
-        UV3 = 3,
-        UV4 = 4,
-        UV5 = 5,
-        UV6 = 6,
-        UV7 = 7,
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fc89e0f95b6cb9254a5fa810df0225b2d609f5ccd1f6565ae187b11c0890f08
+size 236

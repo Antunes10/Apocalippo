@@ -1,16 +1,3 @@
-using System.Collections.Generic;
-
-namespace UnityEditor.Rendering
-{
-    /// <summary>
-    /// Provider for a set of Materials Upgraders
-    /// </summary>
-    public interface IMaterialUpgradersProvider
-    {
-        /// <summary>
-        /// Returns a list of custom MaterialUpgrader instances.
-        /// </summary>
-        /// <returns>A list of upgraders</returns>
-        IEnumerable<MaterialUpgrader> GetUpgraders();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c86e752a9cdb764e5d52156f8972596de582bc28ea45d170d1222eab3dd89d7
+size 433

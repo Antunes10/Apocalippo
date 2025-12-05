@@ -1,17 +1,3 @@
-using UnityEngine.TestTools;
-
-namespace UnityEditor.TestTools.TestRunner.TestRun.Tasks
-{
-    internal class PostbuildCleanupTask : BuildActionTaskBase<IPostBuildCleanup>
-    {
-        public PostbuildCleanupTask() : base(new PostbuildCleanupAttributeFinder())
-        {
-            RunOnError = ErrorRunMode.RunAlways;
-        }
-
-        protected override void Action(IPostBuildCleanup target, TestJobData testJobData)
-        {
-            target.Cleanup();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2eeb35fb18d7bd9ab3795497fffd4543edf4d65ec262ce3d2ace6923f69d8804
+size 478

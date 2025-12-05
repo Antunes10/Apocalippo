@@ -1,27 +1,3 @@
-using System;
-
-namespace UnityEditor.Rendering
-{
-    /// <summary>
-    /// Interface to be implemented by each pipeline to hold the <see cref="SerializedObject"/> for a Light Editor
-    /// </summary>
-    public interface ISerializedLight
-    {
-        /// <summary>The base settings of the light</summary>
-        LightEditor.Settings settings { get; }
-        /// <summary>The light serialized</summary>
-        SerializedObject serializedObject { get; }
-        /// <summary>The additinal light data serialized</summary>
-        SerializedObject serializedAdditionalDataObject { get; }
-
-        /// <summary>Light Intensity Property</summary>
-        [Obsolete("This property has been deprecated. Use ISerializedLight.settings.intensity instead. #from(2023.3)")]
-        SerializedProperty intensity { get; }
-
-        /// <summary>Method that updates the <see cref="SerializedObject"/> of the Light and the Additional Light Data</summary>
-        void Update();
-
-        /// <summary>Method that applies the modified properties the <see cref="SerializedObject"/> of the Light and the Light Camera Data</summary>
-        void Apply();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9acb59bb91db96234d83efd07ae0ce6f8a4a672e344dd38e936b8d5df5a5fe8
+size 1145

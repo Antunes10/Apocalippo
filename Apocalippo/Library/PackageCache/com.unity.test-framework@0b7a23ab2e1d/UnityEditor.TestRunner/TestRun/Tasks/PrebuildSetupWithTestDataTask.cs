@@ -1,28 +1,3 @@
-using UnityEditor.TestTools.TestRunner.Api;
-using UnityEngine.TestTools;
-using TestMode = UnityEngine.TestTools.TestMode;
-
-namespace UnityEditor.TestTools.TestRunner.TestRun.Tasks
-{
-    class PrebuildSetupWithTestDataTask : BuildActionTaskBase<IPrebuildSetupWithTestData>
-    {
-        readonly TestMode m_TestModesIncluded;
-
-        public PrebuildSetupWithTestDataTask(ExecutionSettings settings)
-            : base(new PrebuildSetupWithTestDataAttributeFinder())
-        {
-            if (settings.EditModeIncluded())
-                m_TestModesIncluded |= TestMode.EditMode;
-            if (settings.PlayModeInEditorIncluded())
-                m_TestModesIncluded |= TestMode.PlayMode;
-            if (settings.PlayerIncluded())
-                m_TestModesIncluded |= TestMode.Player;
-
-        }
-
-        protected override void Action(IPrebuildSetupWithTestData target, TestJobData testJobData)
-        {
-            target.Setup(new TestData(m_TestModesIncluded, testJobData.TargetRuntimePlatform, testJobData.filteredTests));
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a4a25bdee4e3ecd7d98440df32d0c784fca476274c65d74121e6b0e9cd62e76
+size 1051

@@ -1,11 +1,3 @@
-#ifndef _SAMPLING_SAMPLINGRESOURCES_HLSL_
-#define _SAMPLING_SAMPLINGRESOURCES_HLSL_
-
-Texture2D<float>                _SobolScramblingTile;
-Texture2D<float>                _SobolRankingTile;
-Texture2D<float2>               _SobolOwenScrambledSequence;
-
-StructuredBuffer<uint>          _SobolMatricesBuffer;
-
-#endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:344e8f53f4b0822ef30cd209f78c6215098fc3d57818d0a65eedddf3830153c9
+size 315

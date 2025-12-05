@@ -1,23 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering
-{
-    /// <summary>
-    /// Implement this interface on every post process volumes
-    /// </summary>
-    public interface IPostProcessComponent
-    {
-        /// <summary>
-        /// Tells if the post process needs to be rendered or not.
-        /// </summary>
-        /// <returns><c>true</c> if the effect should be rendered, <c>false</c> otherwise.</returns>
-        bool IsActive();
-
-        /// <summary>
-        /// Tells if the post process can run the effect on-tile or if it needs a full pass.
-        /// </summary>
-        /// <returns><c>true</c> if it can run on-tile, <c>false</c> otherwise.</returns>
-        [Obsolete("Unused #from(2023.1)")]
-        bool IsTileCompatible() => false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:209a0f0603f054d01ace8400354c5e42bd469db5cbc452f92061bd961f16e09d
+size 758

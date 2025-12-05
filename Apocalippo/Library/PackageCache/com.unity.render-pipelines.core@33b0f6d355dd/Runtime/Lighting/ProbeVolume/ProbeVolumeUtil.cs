@@ -1,9 +1,3 @@
-namespace UnityEngine.Rendering
-{
-    static class ProbeVolumeUtil
-    {
-        internal static int CellSize(int subdivisionLevel) => (int)Mathf.Pow(ProbeBrickPool.kBrickCellCount, subdivisionLevel);
-        internal static float BrickSize(float minBrickSize, int subdivisionLevel) => minBrickSize * CellSize(subdivisionLevel);
-        internal static float MaxBrickSize(float minBrickSize, int maxSubDivision) => BrickSize(minBrickSize, maxSubDivision - 1);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cf585ff14a4ba7b91756289bc2c6f781d2176883303223eb731931ea59220f8
+size 468

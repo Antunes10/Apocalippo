@@ -1,36 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.Rendering
-{
-    /// <summary>
-    /// Material upgrader and relevant utilities for SpeedTree 9.
-    /// </summary>
-    public class SpeedTree9MaterialUpgrader : MaterialUpgrader
-    {
-        /// <summary>
-        /// Postprocesses materials while you are importing a SpeedTree 9 asset. Call from OnPostprocessSpeedTree in a MaterialPostprocessor.
-        /// </summary>
-        /// <param name="speedtree">The GameObject Unity creates from this imported SpeedTree.</param>
-        /// <param name="finalizer">Render pipeline-specific material finalizer.</param>
-        protected static void PostprocessSpeedTree9Materials(GameObject speedtree, MaterialFinalizer finalizer = null)
-        {
-            LODGroup lg = speedtree.GetComponent<LODGroup>();
-            LOD[] lods = lg.GetLODs();
-            for (int l = 0; l < lods.Length; l++)
-            {
-                LOD lod = lods[l];
-                foreach (Renderer r in lod.renderers)
-                {
-                    foreach (Material m in r.sharedMaterials)
-                    {
-                        if (m == null)
-                            continue;
-
-                        if (finalizer != null)
-                            finalizer(m);
-                    }
-                }
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a10bdc34e0aae016f7e5d53ec2b5bdb0890178e180aaf69c0a6215524e07dd50
+size 1329

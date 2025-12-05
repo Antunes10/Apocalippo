@@ -1,27 +1,3 @@
-using UnityEngine;
-
-using PlasticGui;
-using Unity.PlasticSCM.Editor.UI;
-
-namespace Unity.PlasticSCM.Editor.Toolbar
-{
-    internal class UVCSToolbarButtonData
-    {
-        internal bool IsVisible { get; set; }
-        internal string Text { get; set; }
-        internal string Tooltip { get; set; }
-        internal Texture Icon { get; set; }
-
-        internal static UVCSToolbarButtonData BuildDefault()
-        {
-            return new UVCSToolbarButtonData
-            {
-                Text = PlasticLocalization.Name.UnityVersionControl.GetString(),
-                Tooltip = PlasticLocalization.Name.UseUnityVersionControlToManageYourProject.GetString(),
-                Icon = Images.GetPlasticViewIcon(),
-                IsVisible = UVCSToolbarButtonIsShownPreference.IsEnabled() &&
-                            UVCSPluginIsEnabledPreference.IsEnabled(),
-            };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d19a9b19b77559c097331a9fd466fe1b5dafcb1b01574f899a4d737ba8a5142
+size 895

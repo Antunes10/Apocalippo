@@ -1,17 +1,3 @@
-{
-  "name": "com.unity.multiplayer.center",
-  "displayName": "Multiplayer Center",
-  "version": "1.0.1",
-  "unity": "6000.0",
-  "description": "The multiplayer center provides a starting point to create multiplayer games. It will recommend specific packages and enable you to easily access integrations, samples and documentation.",
-  "dependencies": {
-    "com.unity.modules.uielements": "1.0.0"
-  },
-  "keywords": [
-    "Multiplayer",
-    "Netcode",
-    "Services",
-    "Tools"
-  ],
-  "_fingerprint": "5943376a2da32ca9a1a275959f2e2f769aeb737e"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:111a1a596d57c92404c6db74e12185ca6f7bda7834120bb31ebb134548b97835
+size 548

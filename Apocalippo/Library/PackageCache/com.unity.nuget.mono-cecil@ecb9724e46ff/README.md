@@ -1,8 +1,3 @@
-This package wraps the Mono-Cecil DLLs.
-
-# Mono Cecil
-Unity Package for [Mono.Cecil library] https://www.nuget.org/packages/Mono.Cecil/
-
-This package includes the DLL version of Mono.Cecil Version: 0.11.5
-
-This package is intended to be inherited as a dependency, and should not be directly installed, by end users.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8cc983a3f73af524a45d507d368fef501478d0cd2d6b0b8fdd87602f8e742c0
+size 316

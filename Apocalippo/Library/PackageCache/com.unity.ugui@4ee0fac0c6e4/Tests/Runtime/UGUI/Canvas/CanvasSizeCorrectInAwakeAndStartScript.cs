@@ -1,21 +1,3 @@
-using NUnit.Framework;
-using UnityEngine;
-using UnityEngine.TestTools.Utils;
-
-internal class CanvasSizeCorrectInAwakeAndStartScript : MonoBehaviour
-{
-    public bool isStartCalled { get; private set; }
-    public bool isAwakeCalled { get; private set; }
-
-    protected void Awake()
-    {
-        Assert.That(transform.position, Is.Not.EqualTo(Vector3.zero).Using(new Vector3EqualityComparer(0.0f)));
-        isAwakeCalled = true;
-    }
-
-    protected void Start()
-    {
-        Assert.That(transform.position, Is.Not.EqualTo(Vector3.zero).Using(new Vector3EqualityComparer(0.0f)));
-        isStartCalled = true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63a85a0c1f7b7dad2b93dd49733e8f36e17150ff7f1dfd313694bf4b49d2d21d
+size 620

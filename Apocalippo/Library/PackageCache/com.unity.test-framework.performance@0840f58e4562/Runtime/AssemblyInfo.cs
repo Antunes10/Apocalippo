@@ -1,10 +1,3 @@
-using System.Reflection;
-using System.Runtime.CompilerServices;
-
-[assembly: AssemblyTitle("Unity.PerformanceTesting")]
-
-[assembly: InternalsVisibleTo("Unity.PerformanceTesting.Editor")]
-[assembly: InternalsVisibleTo("Unity.PerformanceTesting.Tests.Runtime")]
-[assembly: InternalsVisibleTo("Unity.GraphTools.Foundation.Testing.Editor")]
-
-[assembly: AssemblyVersion("3.2.0")]
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d3a72f150b73f21b5211ed4e32dba43861758a77590adb37435c4fbc67c2e9f
+size 374

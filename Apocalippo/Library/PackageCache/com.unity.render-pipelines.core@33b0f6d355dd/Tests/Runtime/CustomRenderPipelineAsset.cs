@@ -1,19 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering;
-using System.Collections.Generic;
-
-namespace UnityEngine.Rendering.Tests
-{
-    class CustomRenderPipelineAsset : RenderPipelineAsset<CustomRenderPipeline>
-    {
-        protected override RenderPipeline CreatePipeline()
-            => new CustomRenderPipeline();
-    }
-
-    class CustomRenderPipeline : RenderPipeline
-    {
-        protected override void Render(ScriptableRenderContext context, List<Camera> cameras)
-        {
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b87e8f3eeeeb26090f2859dd5d22dd754a089a4eabcfab530dddbfe226f1771
+size 494

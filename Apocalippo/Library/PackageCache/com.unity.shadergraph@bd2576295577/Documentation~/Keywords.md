@@ -1,9 +1,3 @@
-# Changing how shaders work using keywords
-
-Use keywords to create different variants for your Shader Graph.
-
-| **Topic** | **Description** |
-| :--- | :--- |
-| [Introduction to keywords in Shader Graph](Keywords-concepts.md) | Learn about keywords, their different types, and what you can achieve with them. |
-| [Manage keywords in Shader Graph](Keywords-manage.md) | Get started with adding and managing keywords in a Shader Graph. |
-| [Keyword parameter reference](Keywords-reference.md) | Get a description of all keyword parameters, by keyword type. |
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d204c559f773342ad15f0af3928192793fa7bf5d0d750a2941ac2e0e3cf7198
+size 556

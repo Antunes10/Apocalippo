@@ -1,3 +1,3 @@
-# What's new in Shader Graph
-
-For information about the latest updates and improvements to Shader Graph, refer to [What's new in Unity](https://docs.unity3d.com/Manual/WhatsNew.html).
+version https://git-lfs.github.com/spec/v1
+oid sha256:865cb35f9880fe3c6ed8ccaf30c7126da33059d22ee6ec1b3413475a99f9cbd7
+size 184

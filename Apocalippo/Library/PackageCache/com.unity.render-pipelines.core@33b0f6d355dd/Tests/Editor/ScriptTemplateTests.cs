@@ -1,25 +1,3 @@
-using UnityEditor;
-using NUnit.Framework;
-using UnityEditor.Rendering;
-
-namespace UnityEngine.Rendering.Tests
-{
-    class ScriptTemplatesTests
-    {
-        string[] paths = new string[]
-        {
-            $"{ScriptTemplates.ScriptTemplatePath}BlitSRP.txt"
-        };
-
-        [Test]
-        public void ScriptTemplatesExist()
-        {
-            for (int i = 0; i < paths.Length; i++)
-            {
-                var asset = AssetDatabase.LoadAssetAtPath<TextAsset>(paths[i]);
-
-                Assert.NotNull(asset);
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87b91c735979901e4f536e8c514c4f0982d7e454cd86e3bad34e341a94c73d40
+size 557

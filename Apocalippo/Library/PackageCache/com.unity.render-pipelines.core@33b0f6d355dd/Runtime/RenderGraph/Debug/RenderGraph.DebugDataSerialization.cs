@@ -1,18 +1,3 @@
-namespace UnityEngine.Rendering.RenderGraphModule
-{
-    public partial class RenderGraph
-    {
-        internal static class DebugDataSerialization
-        {
-            public static string ToJson(DebugData debugData)
-            {
-                return debugData != null ? JsonUtility.ToJson(debugData, prettyPrint: false) : string.Empty;
-            }
-
-            public static DebugData FromJson(string json)
-            {
-                return !string.IsNullOrEmpty(json) ? JsonUtility.FromJson<DebugData>(json) : null;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffc0ebc29249ca7941cb075110da52b04de7e1ce7c70823f044a5ec025408f68
+size 560

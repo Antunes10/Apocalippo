@@ -1,12 +1,3 @@
-namespace UnityEditor.ShaderGraph
-{
-    /// <summary>
-    /// Literal mode says that the property being passed to a slot / node is a literal
-    /// This is used if the node internally has a conditional statement that produces a texture reference.
-    /// In these situations, the shader compiler requires the value being used for the switch / if to be known at compile time.
-    /// </summary>
-    internal interface IMaterialSlotSupportsLiteralMode
-    {
-        public bool LiteralMode { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24d30f17605521b7ffd978d687c1f7ad30aafebb9ef398e395c34ce7a558e2a4
+size 511

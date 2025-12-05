@@ -1,11 +1,3 @@
-{
-    "ErrorExceptions": [
-        {
-            "ValidationTest": "API Validation",
-            "ExceptionMessage": "Breaking changes require a new major version.",
-            "PackageVersion": "1.16.0",
-            "__comments": "starting from 2022.3 ugui is not added to the project by default. We have some APIs that are conditional on ugui being present, so the API Validation thinks we are breaking API, but that is not the case."
-        }
-    ],
-    "WarningExceptions": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1585968f9af60a3251af435dfca3ded9da390cb046eb51b3da66d6c9fb5bf71
+size 485

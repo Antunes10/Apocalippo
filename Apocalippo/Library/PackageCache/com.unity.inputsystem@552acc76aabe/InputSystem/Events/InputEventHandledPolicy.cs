@@ -1,20 +1,3 @@
-namespace UnityEngine.InputSystem.LowLevel
-{
-    /// <summary>
-    /// Policy defining how the Input System will react to <see cref="InputEvent"/> instances marked as
-    /// <see cref="InputEvent.handled"/> (Or marked handled via <see cref="InputEventPtr.handled"/>).
-    /// </summary>
-    internal enum InputEventHandledPolicy
-    {
-        /// <summary>
-        /// Input events will be discarded directly and not propagate for state changes.
-        /// </summary>
-        SuppressStateUpdates,
-
-        /// <summary>
-        /// Input events will be processed for state updates and input action interaction updates but interaction
-        /// event notifications will be suppressed.
-        /// </summary>
-        SuppressActionEventNotifications
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbdeb4d6cb9dec8079f3dfee7d0b5adb3ea1689481a61c9a0121ad7fa6090a6f
+size 761
